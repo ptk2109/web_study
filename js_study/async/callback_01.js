@@ -6,17 +6,9 @@
  */
 
 
-function foo(callback)
-{
-    callback('success call foo()');
-}
 
-foo( function(msg){
-	 console.log(msg) 
-});
-
-
-
+//===================================================
+// 콜백함수의 기본개념
 function getUserName(id, callback)
 {
 		let name = "찰스";   // 비동기 통신으로 id에 해당하는 이름을 가져왔다고 가정하자!
@@ -31,7 +23,7 @@ getUserName( "user01", function(msg){
 
 getUserName( "user02", (msg) => console.log(msg) );
 
-exit(0);
+
 
 //===================================================
 // 자바스크립트 동기적인 아이이다. 
