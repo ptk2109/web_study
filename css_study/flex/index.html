@@ -14,23 +14,33 @@
 			<div class="item">item1<br>1</div>
 			<div class="item">item2</div>
 			<div class="item">item3</div>
+			<div class="item">item4</div>
+			<div class="item">item5</div>
 		</div>
 		
 		<div>
 			<h2>display:flex</h2>
 
 			<label><input type="radio" name="containerType" value="" />none</label>
-			<label><input type="radio" name="containerType" checked value="flex" />flex</label>
-			<label><input type="radio" name="containerType" value="inline-flex" />inline-flex</label>
+			<label><input type="radio" name="containerType" checked value="flex" />flex(화면전체넓이)</label>
+			<label><input type="radio" name="containerType" value="inline-flex" />inline-flex(아이템 넓이)</label>
 		</div>
 
 		<div>
 			<h2>flex-direction (배치 방향 설정)</h2>
 			<label><input type="radio" name="flex-direction" value="" />none</label>
-			<label><input type="radio" name="flex-direction" checked value="row" />row</label>
-			<label><input type="radio" name="flex-direction" value="column" />column</label>
-			<label><input type="radio" name="flex-direction" value="row-reverse" />row-reverse</label>
-			<label><input type="radio" name="flex-direction" value="column-reverse" />column-reverse</label>
+			<label><input type="radio" name="flex-direction" checked value="row" />row(가로축::좌->우)</label>
+			<label><input type="radio" name="flex-direction" value="row-reverse" />row-reverse(가로축::우->좌)</label>
+			<label><input type="radio" name="flex-direction" value="column" />column(세로축::위->아래)</label>
+			<label><input type="radio" name="flex-direction" value="column-reverse" />column-reverse(세로축::아래->위)</label>
+		</div>
+
+		<div>
+			<h2>flex-wrap (줄넘길 처리 설정)</h2>
+			<label><input type="radio" name="flex-wrap" checked value="" />없음</label>
+			<label><input type="radio" name="flex-wrap" value="nowrap" />nowrap(삐져나감)</label>
+			<label><input type="radio" name="flex-wrap" value="wrap" />wrap(줄내림-벗어난것 아래로)</label>
+			<label><input type="radio" name="flex-wrap" value="wrap-reverse" />wrap-reverse(줄내림-벗어난것 위로)</label>
 		</div>
 	</div>
 </body>
