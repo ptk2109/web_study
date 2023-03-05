@@ -1,0 +1,13 @@
+  {
+    "compilerOptions": {
+      "target": "es2016",                       /* 어떤 버전으로 컴파일할지 작성 */
+      "module": "commonjs",                     /* 어떤방식으로 컴파일할지 설정 */
+      "rootDir": "./ts_study/src",              /* 시작하는 루트폴더 */
+      "outDir": "./ts_study/dist",              /* 컴파일 후 생성되는 js 파일이 생성될 폴더명 */
+      "esModuleInterop": true,                  /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+      "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+      "strict": true,                           /* 모든타입 checking  옵션을 활성화 여부 */
+      "skipLibCheck": true,                      /* Skip type checking all .d.ts files. */
+      "noEmitOnError": true,                    /*  true로 주면 에러가 있을 때 에러를 수정할 때까지 js 파일을 생성하지 않는다 */
+    }
+  }

@@ -1,0 +1,23 @@
+{
+  "name": "web_study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptk2109/web_study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptk2109/web_study/issues"
+  },
+  "homepage": "https://github.com/ptk2109/web_study#readme",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  } 
+}
