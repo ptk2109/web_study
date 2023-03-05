@@ -1,0 +1,9 @@
+.container{
+	background-color: #C76F23;
+	display:flex;
+}
+.container .item{
+	margin: 3px;
+	background-color: #F9B477;
+	border: 1px solid #F78B2D;
+}
