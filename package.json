@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ptk2109/web_study#readme",
   "dependencies": {
+    "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
-  } 
+  }
 }
