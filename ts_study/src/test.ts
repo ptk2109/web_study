@@ -13,4 +13,11 @@ let list2: Array<number> = [1, 2, 3];	// 배열2
 // 튜플 (Tuple)
 let tuple1: [string, number];
 tuple1 = ["hello", 10]; 
-console.log(tuple1[0]);	 // hello
+console.log(tuple1[0]);	 // output: hello
+
+// 열거(enum)
+enum Color {Red = 1, Green, Blue = 4}
+let c: Color = Color.Green;
+console.log(c); 	// output: 2
+
+
